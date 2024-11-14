@@ -63,4 +63,6 @@ class RTCRtpReceiverNative extends RTCRtpReceiver {
 
   @override
   String get receiverId => _id;
+
+  String get peerConnectionId => _peerConnectionId;
 }
